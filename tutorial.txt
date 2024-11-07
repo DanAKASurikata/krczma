@@ -1,1 +1,22 @@
 Tutoriál pro simulátor krčmy!
+
+Máš zde základní suroviny pro míchání a destilaci alkoholu:
+1) voda
+2) technický líh
+3) vodka 40%
+
+Dále potřebuješ nějaké jídlo, pití a drobné občerstvení:
+1) chleba
+2) sádlo
+3) banger domácí brambůrky (od babičky)
+4) banger domácí bábovka (od babičky)
+5) jablečný mošt
+
+Jak to vlastně funguje? Jenoduše:
+1) Lidi ti chodí pro chálky a hlavně pro chlast
+2) Musíš mít dostatek zásob aby prodeje fungovaly
+3) Musíš umíchat (popřípadně vydestilovat) co nejlepší laktvar a samozřejmě toho mít dost v zásobách
+
+Plánek krčmy a přilehlé vlakové stanice nalzeneš jako 'krczma_plan.png'
+
+PS: možná někdy bude DLC na ovládání vlakové dopravy takže stay tuned!
