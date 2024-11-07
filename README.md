@@ -7,4 +7,4 @@ Zásobování probíhá po železnici, naštěstí strojvůdce který ti vozí z
 
 
 
-(C) Dan_20 AKA Surikata
+(C) Dan_20 AKA Surikata - více info v tutorial.txt
