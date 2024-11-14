@@ -1,4 +1,4 @@
-Tutoriál pro simulátor krčmy!
+Tutoriál pro simulátor večerky!
 
 Máš zde základní suroviny pro míchání a destilaci alkoholu:
 1) voda
@@ -18,5 +18,8 @@ Jak to vlastně funguje? Jenoduše:
 3) Musíš umíchat (popřípadně vydestilovat) co nejlepší laktvar a samozřejmě toho mít dost v zásobách
 
 Plánek krčmy a přilehlé vlakové stanice nalzeneš jako 'krczma_plan.png'
+
+Alkohol děláš v místnosti s názvem Sklad, věci máš uložené v místnosti zázemí, prodáváš v místnosti žranica.
+Zákazníci kteří používají dálkové objednávky zastavují v "místnosti" Train station a zásoby ti přijedou do "místnosti" Rampa.
 
 PS: možná někdy bude DLC na ovládání vlakové dopravy takže stay tuned!
