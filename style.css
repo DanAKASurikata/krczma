@@ -1,0 +1,9 @@
+#r0 {
+    background-image: url("images/r0.png");
+    width: 400px;
+    height: 800px;
+}
+
+.r0 {
+    padding: 20px;
+}
