@@ -4,6 +4,44 @@
     height: 800px;
 }
 
+#r1 {
+    background-image: url("images/r1.png");
+    width: 400px;
+    height: 800px;
+}
+
+#r4 {
+    background-image: url("images/r0.png");
+    width: 400px;
+    height: 800px;
+}
+
 .r0 {
-    padding: 20px;
+    margin: 80px;
+}
+
+.r1 {
+    margin-top: 700px;
+    margin-left: 120px;
+}
+
+.r4 {
+    background-image: url("images/r0.png");
+    width: 400px;
+    height: 800px;
+    border: 150px;
+}
+
+#ui {
+    height: 0px;
+}
+
+.ui {
+    width: 100px;
+}
+
+body {
+    background-color: lightslategray;
+    color: black;
+    text-align: center;
 }
