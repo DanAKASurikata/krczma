@@ -7,20 +7,21 @@
 </head>
 <body>
     <div class="screen" id="ui" style="display: none;"> <!--UI-->
-        <br>
-        <button class="ui">nahoru</button><br>
-        <button class="ui">doleva</button>
-        <button class="ui">dolů</button>
-        <button class="ui">doprava</button>
+        <button class="ui" id="up" onclick="pgUp()">nahoru</button><br>
+        <button class="ui" id="lt" onclick="pgLt()">doleva</button>
+        <button class="ui" id="dn" onclick="pgDn()">dolů</button>
+        <button class="ui" id="rg" onclick="pgRg()">doprava</button>
     </div>
+    <br><br><br><br><br>
     <div class="screen" id="mainMenu">
-        <h2>WIP</h2>
+        <h2>Vše co potřebuješ vědět je v souborech, zkus hledat :)</h2>
+        <button class="mainMenu" onclick="startujeme()">Start!</button>
     </div>
     <div class="screen" id="r0" style="display: none;"> <!--Zázemí-->
-        <h3 class="r0">0</h3>
+        <img src="/images/r0.png" alt="">
     </div>
     <div class="screen" id="r1" style="display: none;"> <!--Sklad-->
-        <button class="r1" onclick="kalkulaczka()">Skład2 (top secrete kalkulačka)</button>
+        <img src="/images/r1.png" alt="">
     </div>
     <div class="screen" id="r2" style="display: none;"> <!--žranica-->
         <h3>2</h3>
@@ -30,16 +31,6 @@
     </div>
     <div class="screen" id="r4" style="display: none;"> <!--Train station-->
         <h3 class="r4">4</h3>
-    </div>
-    <div class="screen" id="kal" style="display: none">
-        <input type="text" name="hmotnost" id="mass" class="kal"><br><br>
-        <input type="text" name="delka" id="length" class="kal"><br><br>
-        <button class="kal" onclick="poczitej()">Zadej</button> <br><br>
-        <button class="kal" onclick="nuluj()">Nuluj</button> <br><br>
-        <p>
-        Hmotnost vlaku: <strong><span class="kal" id="hmotnost">0</span>t</strong><br>
-        Délka vlaku: <strong><span class="kal" id="delka">0</span>m</strong>
-        </p>
     </div>
 </body>
 <script src="script.js"></script>

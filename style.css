@@ -1,17 +1,14 @@
 #r0 {
-    background-image: url("images/r0.png");
     width: 400px;
     height: 800px;
 }
 
 #r1 {
-    background-image: url("images/r1.png");
     width: 400px;
     height: 800px;
 }
 
 #r4 {
-    background-image: url("images/r0.png");
     width: 400px;
     height: 800px;
 }
@@ -26,10 +23,8 @@
 }
 
 .r4 {
-    background-image: url("images/r0.png");
     width: 400px;
     height: 800px;
-    border: 150px;
 }
 
 #ui {
@@ -44,4 +39,5 @@ body {
     background-color: lightslategray;
     color: black;
     text-align: center;
+    margin: 30px;
 }
