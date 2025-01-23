@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <title>Veczerka</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="screen" id="ui" style="display: none;"> <!--UI-->
-        <button class="ui" id="up" onclick="pgUp()">nahoru</button><br>
+        <p class="ui" style="color: rgb(226, 251, 255);">Zůstatek: <strong><span style="color: rgb(255, 255, 255);" id="zustatek">0</span></strong> Kč</p>
+        <button class="ui" id="up" onclick="pgUp()">nahoru</button>
         <button class="ui" id="lt" onclick="pgLt()">doleva</button>
         <button class="ui" id="dn" onclick="pgDn()">dolů</button>
         <button class="ui" id="rg" onclick="pgRg()">doprava</button>
@@ -21,7 +24,15 @@
         <img src="/images/r0.png" alt="">
     </div>
     <div class="screen" id="r1" style="display: none;"> <!--Sklad-->
-        <img src="/images/r1.png" alt="">
+        <h4 class="r1">Možnosti nákupu:</h4>
+        <p class="r1">
+            <button onclick="nakup(0)">Voda</button> Počet v inventáři: <span id="voda">0</span><br>
+            <button onclick="nakup(1)">Vodka</button> Počet v inventáři: <span id="vodka">0</span><br>
+            <button onclick="nakup(2)">Jablečný mošt</button> Počet v inventáři: <span id="moszt">0</span><br>
+            <strong style="background-color: whitesmoke;">Bábovka</strong> Počet v inventáři: <span id="babovka">5</span><br>
+            <strong style="background-color: whitesmoke;">Bramburky</strong> Počet v inventáři: <span id="bramburky">20</span>
+        </p>
+        <img class="r1" src="/images/r1.png" alt="" height="600" width="300">
     </div>
     <div class="screen" id="r2" style="display: none;"> <!--žranica-->
         <h3>2</h3>
@@ -34,4 +45,5 @@
     </div>
 </body>
 <script src="script.js"></script>
+
 </html>

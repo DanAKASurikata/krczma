@@ -18,8 +18,7 @@
 }
 
 .r1 {
-    margin-top: 700px;
-    margin-left: 120px;
+    margin-left: 80px;
 }
 
 .r4 {
@@ -28,16 +27,17 @@
 }
 
 #ui {
-    height: 0px;
+    height: 50px;
+    width: 119px;
 }
 
 .ui {
-    width: 100px;
+    width: 119px;
 }
 
 body {
     background-color: lightslategray;
     color: black;
     text-align: center;
-    margin: 30px;
+    margin: 15px;
 }
