@@ -29,8 +29,8 @@
             <button onclick="nakup(0)">Voda</button> Počet v inventáři: <span id="voda">0</span><br>
             <button onclick="nakup(1)">Vodka</button> Počet v inventáři: <span id="vodka">0</span><br>
             <button onclick="nakup(2)">Jablečný mošt</button> Počet v inventáři: <span id="moszt">0</span><br>
-            <strong style="background-color: whitesmoke;">Bábovka</strong> Počet v inventáři: <span id="babovka">5</span><br>
-            <strong style="background-color: whitesmoke;">Bramburky</strong> Počet v inventáři: <span id="bramburky">20</span>
+            <span style="background-color: whitesmoke;">Bábovka</span> Počet v inventáři: <span id="babovka">5</span><br>
+            <span style="background-color: whitesmoke;">Bramburky</span> Počet v inventáři: <span id="bramburky">20</span>
         </p>
         <img class="r1" src="/images/r1.png" alt="" height="600" width="300">
     </div>
@@ -38,10 +38,17 @@
         <h3>2</h3>
     </div>
     <div class="screen" id="r3" style="display: none;"> <!--Rampa-->
-        <h3>3</h3>
+        <button class="r3" onclick="ziskat()">Vyzvednout zásilku</button><br>
+        <img class="r3" src="/images/r3.png" alt="" height="235" width="950">
     </div>
     <div class="screen" id="r4" style="display: none;"> <!--Train station-->
         <h3 class="r4">4</h3>
+    </div>
+    <div class="screen" id="smrt" style="display: none;">
+        <h2>Jsi mrtvý. GG Alkane</h2>
+    </div>
+    <div class="screen" id="boj" style="display: none;">
+        <h1>AKTUÁLNĚ NENÍ IMPLEMNTOVÁNO. HRA ZDE KONČÍ. DĚKUJI ZA HRANÍ =)</h1>
     </div>
 </body>
 <script src="script.js"></script>
