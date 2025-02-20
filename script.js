@@ -6,7 +6,11 @@ let screen = 0;
 let penize = 5000;
 let invent = [0,0,0,5,20];
 let invName = ["voda","vodka","moszt","babovka","bamburky"];
+let inventTemp = [0,0,0,]
 let tutprog = 0;
+let bojOtazky = ["1+1","8*4","72/2","207/3","16-4","neni :)"];
+let bojVysledky = [2,64,36,69,12];
+let bojProg = 0;
 
 function setScreen(screen_id){
     document.querySelectorAll(".screen").forEach(x => {
@@ -23,6 +27,17 @@ function setScreen(screen_id){
         for (let i = 0; i < 4; i++) {
             document.getElementById(invName[i]).innerText = `${invent[i]}`;
         }
+    }
+    if(screen_id == "r3"){
+        if(inventTemp[0] == 0 && inventTemp[1] == 0 && inventTemp[2] == 0){
+            document.getElementById("ziskatButton").style.display="none";
+        }
+        else{
+            document.getElementById("ziskatButton").style.display="block";
+        }
+    }
+    if(screen_id == "boj"){
+        bojProg = 0;
     }
 }
 
@@ -75,7 +90,6 @@ function tutorial(){
     }
 }
 
-let inventTemp = [0,0,0,]
 function nakup(zbozi){
     if(zbozi == 0){
         inventTemp[zbozi]++;
@@ -114,4 +128,19 @@ function ziskat(){
     //for (let i = 0; i < 3; i++) {
     //    invent[i] = inventTemp[i];
     //}
+}
+
+function boj(){
+    if(document.getElementById("vysledekBoj").value != bojVysledky[bojProg]){
+        alert("Zemřel jsi x(");
+        setScreen("smrt");
+    }
+    else{
+        if(bojProg == 4){
+            alert("Vyhrál jsi!\nHra zde končí. Děkuji za zahrání! <3")
+        }
+        bojProg++
+        document.getElementById("prikladBoj").innerText=bojOtazky[bojProg];
+        document.getElementById("vysledekBoj").value = "";
+    }
 }

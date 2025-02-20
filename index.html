@@ -38,7 +38,7 @@
         <h3>2</h3>
     </div>
     <div class="screen" id="r3" style="display: none;"> <!--Rampa-->
-        <button class="r3" onclick="ziskat()">Vyzvednout zásilku</button><br>
+        <button class="r3" id="ziskatButton" onclick="ziskat()">Vyzvednout zásilku</button><br>
         <img class="r3" src="/images/r3.png" alt="" height="235" width="950">
     </div>
     <div class="screen" id="r4" style="display: none;"> <!--Train station-->
@@ -49,6 +49,13 @@
     </div>
     <div class="screen" id="boj" style="display: none;">
         <h1>AKTUÁLNĚ NENÍ IMPLEMNTOVÁNO. HRA ZDE KONČÍ. DĚKUJI ZA HRANÍ =)</h1>
+        <p>
+            Boj vyhraješ tím, že porazíš nepřítele v matematice. Dej si pozor, příklady budou velmi těžké! <br>
+            <strong>Příklad:</strong>
+            <span id="prikladBoj">1+1 (ano, toto je opravdu ten příklad)</span><br>
+            Výsledek:<input type="number" name="vysledek" id="vysledekBoj">
+            <button onclick="boj()">Odeslat výsledek</button>
+        </p>
     </div>
 </body>
 <script src="script.js"></script>
